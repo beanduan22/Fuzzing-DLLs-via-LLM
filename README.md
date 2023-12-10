@@ -6,3 +6,6 @@
 # under /Fuzzing/torch, You can find some of our work: the classification file classfied_data based on pytorch classification, which contains the classified pytorch API. The Fuzzing4model.py file is the program we implemented to fuzz the model. After instantiating it, it can be called after obtaining the model and model input. In order to facilitate calling, we have included multiple bug-generating models in the model_torch folder. In addition, the example_model_generatedbygpt_1_labeled.py file is the model that is inserted into the checkpoint by GPT again after an error occurs in the example_model_generatedbygpt_1.py file. The roundpickup_apis.py file is a file where we randomly select API groups.
 
 # If you want to run it, you only need to create a file, instantiate Fuzzing4model, and call the model under model_torch.
+
+
+# In addition, we also attach the reported and comfired bugs
