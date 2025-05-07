@@ -7,7 +7,8 @@ The Fuzzing folder have two files, one for Pytorch and other for Tensorflow.
 
 You need to install pytorch (v2.1) and tensorflow (v2.13) to run
 
-You can find some of our work: the classification file classfied_api based on pytorch classification, which contains the classified pytorch API. The Fuzzing4model.py file is the program we implemented to fuzz model. After instantiating it, it can be called after obtaining the model and model input. In order to facilitate calling, we have included multiple bug-generating models in the model_torch folder. The roundpickup_apis.py file is a file where we randomly select API groups.
+You can find some of our work: the classification file classfied_api based on pytorch classification, which contains the classified pytorch API. 
+The Fuzzing4model.py file is the program we implemented to fuzz model. After instantiating it, it can be called after obtaining the model and model input.
 
 If you want to run it, you only need to create a file, instantiate Fuzzing4model, and call the model under model_torch.
 
